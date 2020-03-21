@@ -1,0 +1,133 @@
+/* 
+break points 
+desktop, tablet, and mobile
+992px and 
+768px and 991px
+ 767px
+
+e. It consists of a page heading and 3 sections (all in one row in the desktop view). Each section contains some text.
+
+Chicken, Beef, Sushi    relative and absolute positioning and offsets 
+
+*/
+
+a{
+    color: black;
+}
+header{
+    background-color: #999999;
+    border-bottom: 1px solid black;
+}
+nav.navbar{
+    padding: 0;
+}
+nav.navbar-light button.navbar-toggler{
+    border-color: black;
+}
+span.navbar-toggler-icon{
+    color: black;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+nav.navbar a.navbar-brand{
+    font-size:175%;
+    padding-left: 30px;
+}
+button{
+    margin-right: 30px;
+}
+li.nav-item{
+    padding-left: 30px;
+    background-color: #fff1f1b0;
+}
+li.nav-item a{
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+div.col-sm-12{
+    background-color: #999999;
+}
+
+/* h4 {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #999999;
+    border-bottom: 3px black solid;;
+}
+.navbar-toggle.collapsed{
+    width: 50px;
+    height: 50px;
+}
+
+h2 { 
+    text-align: center;
+    font-size: 175%;
+    margin-top: 10px;    
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    border: 1px black solid;
+    float: left;
+    max-width: 97%;
+    background-color: #999999;
+    margin: 1.1%;
+}
+li h4{
+    float: right;
+    border: 1px black solid;
+    margin: -1px -1px 10px 100%;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px 0;
+    font-size: 125%;
+}
+span {
+    display: block;
+    margin: 2%;
+}
+li:nth-child(1) h4{
+    background-color: #d59898;
+}
+li:nth-child(2) h4{
+    background-color: #c14543;
+    color: white;
+}
+li:nth-child(3) h4{
+    background-color: #e5d198;
+}
+
+@media (min-width: 768px) {
+    li{ 
+        max-width: 47.8%;
+    }
+    li:nth-child(3) {
+        max-width: 98%;
+    }
+}
+
+@media (min-width: 992px) {
+    li{ 
+        max-width: 31.1%;
+    }
+    li:nth-child(3) {
+        max-width: 31.1%;
+    }
+}
+ */
