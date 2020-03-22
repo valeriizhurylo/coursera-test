@@ -25,14 +25,21 @@ button{
     margin-right: 30px;
 }
 li.nav-item{
-    padding-left: 30px;
+    padding: 0 10% 0 10%;
 }
 li.nav-item a{
     text-align: center;
+    border-bottom: 1px solid black;
+}
+ul{
+    background-color: pink;
 }
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
 div.col-sm-12{
     background-color: #999999;
+}
+li.nav-item:nth-last-child(1) a{
+    border-bottom: none;
 }
